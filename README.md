@@ -1,2 +1,2 @@
 # python_tricks
-Interesting points of Python language.
+[*Bader, Dan. Python Tricks: A Buffet of Awesome Python Features. BookBaby, 2017*](https://realpython.com/products/python-tricks-book/)
