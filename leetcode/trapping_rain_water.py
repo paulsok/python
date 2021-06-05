@@ -14,21 +14,21 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         answer = 0
         left, right = 0, len(height) - 1
-        l_max, r_max = 0, 0
+        left_max, right_max = 0, 0
 
         while left < right:
             if height[left] < height[right]:
-                if height[left] >= l_max:
-                    l_max = height[left]
+                if height[left] >= left_max:
+                    left_max = height[left]
                 else:
-                    answer += l_max - height[left]
+                    answer += left_max - height[left]
                 left += 1
 
             else:
-                if height[right] >= r_max:
-                    r_max = height[right]
+                if height[right] >= right_max:
+                    right_max = height[right]
                 else:
-                    answer += r_max - height[right]
+                    answer += right_max - height[right]
                 right -= 1
 
         return answer
