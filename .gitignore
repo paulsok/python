@@ -1,1 +1,4 @@
-docker/.DS_Store
+**/.DS_Store
+**/.vscode
+**/.ipynb_checkpoints
+**/.idea
