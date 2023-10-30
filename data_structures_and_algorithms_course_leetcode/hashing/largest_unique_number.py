@@ -10,7 +10,7 @@ class Solution:
             default_dict[num] += 1
 
         ans = -1
-        for key in default_dict.keys():
+        for key in default_dict:
             if default_dict[key] == 1 and key > ans:
                 ans = key
         return ans
