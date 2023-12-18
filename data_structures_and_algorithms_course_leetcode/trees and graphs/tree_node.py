@@ -4,6 +4,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
+
 """
 The following code builds a tree that looks like:
     0
