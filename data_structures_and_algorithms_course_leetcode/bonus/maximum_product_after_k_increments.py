@@ -12,6 +12,6 @@ class Solution:
         MOD = 1_000_000_007
         ans = 1
         for x in nums:
-            ans *= x
+            ans = (ans * x) % MOD
 
-        return ans % MOD
+        return ans
